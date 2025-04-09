@@ -1,0 +1,18 @@
+button {
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
