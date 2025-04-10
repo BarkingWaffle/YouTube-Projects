@@ -23,6 +23,7 @@ const quotes = [
 ]
 
 const usedIndexes = new Set();
+<<<<<<< HEAD
 const quoteElement = document.getElementById("quote")
 
 function generateQuote() {
@@ -42,3 +43,11 @@ function generateQuote() {
     }
 
   }
+=======
+const quoteElement = document.getElementById("quote");
+
+
+function generateQuote() {
+  quoteElement.innerHTML = "hello"
+}
+>>>>>>> b4e343f6d5d16414613eccec74ada1a59d352e26
