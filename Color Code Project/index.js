@@ -1,7 +1,12 @@
 const body = document.getElementsByTagName("body")[0];
 
-function setColor(name) {
-  body.style.backgroundColor = name;
+function setColor(red) {
+  document.body.style.backgroundColor = red;
+  document.body.style.color = green;
+}
+
+function setFont(name) {
+  body.style.color = name;
 }
 
 function randomColor() {
