@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../ASCII Engine Project"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Projects On My Own"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "YouTube Projects"
+	}
+}
