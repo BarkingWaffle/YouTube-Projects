@@ -14,15 +14,15 @@ const brickOffsetLeft = 30;
 let paddleX = (canvas.width - paddleWidth) / 2;
 let x = canvas.width / 2;
 let y = canvas.height - 30;
-let dx = 2;
-let dy = -2;
+let dx = 3;
+let dy = -3;
 let rightPressed = false;
 let leftPressed = false;
 let interval = 0;
 let ballColor = "#0095DD"
 let bricks = [];
 let score = 0;
-let lives = 3;
+let lives = 2;
 let isGameRunning = false;
 
 // Init bricks
@@ -165,13 +165,13 @@ function draw() {
         if (!lives) {
           alert("GAME OVER");
           document.location.reload();
-          clearInterval(interval);
       } else {
         // Reset ball and paddle
+        alert("Try again!");
         x = canvas.width / 2;
         y = canvas.height - 30;
-        dx = 2;
-        dy = -2;
+        dx = 3;
+        dy = -3;
         paddleX = (canvas.width - paddleWidth) / 2;
       }
     }
